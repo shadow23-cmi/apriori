@@ -45,7 +45,8 @@ PROGRAM DESCRIPTION:
                                  import time
                        loaded the data in pandas dataFrame by,
                              data =pd.read_csv("docword_nips.txt",skiprows=3,header=None,sep= " ",names=["docId","wordId","count"])
-data_clean=data.groupby(["docId","wordId"])["count"].sum().unstack().reset_index().fillna(0).set_index("docId”)
+                             
+   data_clean=data.groupby(["docId","wordId"])["count"].sum().unstack().reset_index().fillna(0).set_index("docId”)
                        Tranaction set,
                    #set of all transactions
                    Transactions=[]
