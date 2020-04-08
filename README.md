@@ -4,8 +4,6 @@
 
 
 ABOUT:
-
-
 	 Created a program in python3.7 to compute frequent itemsets using apriori algorithm (both fixed minimum support and multiple minimum support approach)from the data sets docword.enron.txt ,dockword.nips.txt ,dockword.kos.txt availavle at
  
 http://archive.ics.uci.edu/ml/datasets/Bag+of+Words   .
@@ -28,8 +26,7 @@ For  multiple minimum support approach,’
              F=max of ({(Total no of occurances/total no document ) for each 
 			     wordId},0.05)
              phi=0.001
-		 k=2,3,4,5
-                  
+		 k=2,3,4,5          
          nips:
              F=max of ({(Total no of occurances/total no document ) for each 
 			     wordId},0.01)
@@ -43,41 +40,32 @@ PROGRAM DESCRIPTION:
                   LIBRARIES USED:
                            numpy,pandas,time
 
-     FIXED MINIMUM SUPPORT APPROACH:
-                           
+   FIXED MINIMUM SUPPORT APPROACH:          
                  candidate-gen function(candidate_gen(f(k-1))):
                              Takes input fk-1 returns the candidate set(ck) for computing fk
                  counting support of a set(support_count_of_sets(input_set)):
-                              counts the frequency of a candidate set
-                            
+                              counts the frequency of a candidate set                            
                  Apriori function(apriori(data_clean,min_sup,k):
                       Takes input data, fixed minimum support and k(max length of frequent item set)
                        
                                
 
-     MULTIPLE MINIMUM SUPPORT APPROACH:
-   
-                  Counting support of a set(support_count_of_sets(input_set)):
-                              
-					counts the frequency of a candidate set
-                                                          
-                  calculating multiple minimum supports:
-                                      
-                              mis_individual():  calculates mis of every word
-                                        
+   MULTIPLE MINIMUM SUPPORT APPROACH:
+                  Counting support of a set(support_count_of_sets(input_set)):                           
+					counts the frequency of a candidate set                                        
+                  calculating multiple minimum supports:                                   
+                              mis_individual():  calculates mis of every word                                    
                   Sorting according to MIS:    
-                               sort_accord_mis(data):  sorts the words according to the mis
+                               sort_accord_mis(data):  sorts the words according to the mis													 
                   ms= mis_individual() (contains all the mis)
-                  m=sort_accord_mis(ms) (contains all the sorted 1-items according  to mis )
-                                                                                               
+                  m=sort_accord_mis(ms) (contains all the sorted 1-items according  to mis )                                                                             
                   level_2_candidate_gen(m,phi):
                                 generates candidate sets of size 2
 					((N.B: not required as elements of f are already sorted in desired manner))
                   MS_candidate_gen(f,phi):
                                 generates candidate sets of size >2
                   MS_apriori(data_clean,k,phi):
-					Takes input data,k(the max size of frequent set)and phi(gives upper bound to the difference between min and maximum support
-of elements a frequentt item set)
+					Takes input data,k(the max size of frequent set)and phi(gives upper bound to the difference between min and maximum supportof elements a frequentt item set)
                                Otherwise,same as apriori of fixed minimum support except for 
      “    if (  support_count_of_sets(item) /no_of_transactions)>=min_sup:
                            f.append(item)  “ 
@@ -89,5 +77,4 @@ where ms[min(item)-1] stores the mis of min elemnet of Ck-1
                                                                
 OUTPUT:
                  output stored at:
-
-                           	https://drive.google.com/drive/folders/1uoJ463rpRsqNUZAcoH9r4Z-n9I8nv6fo
+https://drive.google.com/drive/folders/1uoJ463rpRsqNUZAcoH9r4Z-n9I8nv6fo
