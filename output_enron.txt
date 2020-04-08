@@ -1,0 +1,145 @@
+
+
+F=0.8
+
+K=10
+
+Runtime is :5.744402647018433 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.7
+
+K=10
+
+Runtime is :3.51458740234375 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.6
+
+K=10
+
+Runtime is :3.818974256515503 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.5
+
+K=10
+
+Runtime is :3.550560712814331 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.4
+
+K=10
+
+Runtime is :3.5133275985717773 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.3
+
+K=10
+
+Runtime is :3.5792133808135986 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.2
+
+K=10
+
+Runtime is :3.543506383895874 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[]
+
+words:
+
+[]
+
+F=0.15
+
+K=10
+
+Runtime is :4.001168489456177 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[{1583}, {10933}, {11468}, {15231}, {15617}, {17292}, {25181}]
+
+words:
+
+[{'attached'}, {'group'}, {'help'}, {'market'}, {'meeting'}, {'number'}, {'think'}]
+
+F=0.1
+
+K=10
+
+Runtime is :14.630208492279053 seconds
+
+The Frequent sets are:
+
+Word indices:
+
+[{1583}, {3284}, {3450}, {4802}, {4865}, {5299}, {5511}, {5921}, {6106}, {6182}, {8201}, {8243}, {9460}, {9867}, {9970}, {10027}, {10543}, {10636}, {10933}, {11468}, {11897}, {13091}, {14559}, {14735}, {15231}, {15617}, {15738}, {16213}, {16267}, {17292}, {17481}, {17486}, {17761}, {18848}, {18978}, {19190}, {19484}, {19592}, {19793}, {20480}, {20481}, {21011}, {21289}, {22459}, {22535}, {24463}, {24860}, {25181}]
+
+words:
+
+[{'attached'}, {'business'}, {'california'}, {'comment'}, {'company'}, {'contract'}, {'cost'}, {'customer'}, {'date'}, {'deal'}, {'end'}, {'energy'}, {'find'}, {'forward'}, {'free'}, {'friday'}, {'give'}, {'going'}, {'group'}, {'help'}, {'houston'}, {'issues'}, {'list'}, {'look'}, {'market'}, {'meeting'}, {'message'}, {'monday'}, {'month'}, {'number'}, {'offer'}, {'office'}, {'order'}, {'plan'}, {'point'}, {'power'}, {'price'}, {'process'}, {'provide'}, {'receive'}, {'received'}, {'report'}, {'review'}, {'send'}, {'service'}, {'sure'}, {'team'}, {'think'}]
