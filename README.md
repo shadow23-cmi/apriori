@@ -11,7 +11,8 @@ http://archive.ics.uci.edu/ml/datasets/Bag+of+Words   .
 
 PARAMETERS:
    
-For fixed minimum support approach,
+For fixed minimum support approach:
+
     parameters used :
           kos:
               F=0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.6,0.7 and 0.1
@@ -20,7 +21,9 @@ For fixed minimum support approach,
           enron:
                 ((N.B:The program didn’t run on pc. Reason:Pivot of Data set too big(8.3 G.B) to load for our program.So, ran in Google colab))
 		  F=0.8,0.7,0.6,0.5,0.4,0.3,0.2,0.15,0.1
-For  multiple minimum support approach,’
+For  multiple minimum support approach:
+
+
    parameters used:
          kos:
              F=max of ({(Total no of occurances/total no document ) for each 
